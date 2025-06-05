@@ -19,6 +19,8 @@ using zygisk::Api;
 using zygisk::AppSpecializeArgs;
 using zygisk::ServerSpecializeArgs;
 
+//CI RUN
+
 static int GetProt(const procmaps_struct *procstruct) {
     int prot = 0;
     if (procstruct->is_r) {
